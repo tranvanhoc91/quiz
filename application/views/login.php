@@ -64,7 +64,7 @@ if(count($recent_quiz)==0){
 		
 
 			<form class="form-signin" method="post" action="<?php echo site_url('login/verifylogin');?>">
-					<h3 class="form-signin-heading"><?php echo "$this->lang->line('login')";?></h3>
+					<h3 class="form-signin-heading"><?php echo $this->lang->line('login');?></h3>
 		<?php 
 		if($this->session->flashdata('message')){
 			?>
