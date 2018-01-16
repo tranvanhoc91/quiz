@@ -173,7 +173,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'japanese';
+$config['language']	= 'vietnamese';
 
 
 

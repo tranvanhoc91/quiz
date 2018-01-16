@@ -1,4 +1,9 @@
 <?php 
+
+$lang ['school'] = "岩谷学園テクノビジネス横浜保育専門";
+$lang ['class'] = "情報ビジネス科　2年2組";
+$lang ['team'] = "Fantastic チーム";
+
 $lang['savsoft_quiz'] = "Savsoft Quiz v3.0";
 $lang['installation_process'] = "Đang cài đặt";
 $lang['installation_completed'] = "Cài đặt hoàn tất. Truy cập {base_url} để đăng nhập.<br><br>Thông tin đăng nhập mặc định:<br> Email: admin@example.com <br>Password: admin<br><br>biết thêm chi tiết và thay đổi cài đặt <a href='http://savsoftquiz.com/'>www.SavsoftQuiz.com/</a> ";
