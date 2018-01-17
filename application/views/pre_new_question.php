@@ -28,9 +28,13 @@
 					<select class="form-control" name="question_type" onChange="hidenop(this.value);">
 						<option value="1"><?php echo $this->lang->line('multiple_choice_single_answer');?></option>
 						<option value="2"><?php echo $this->lang->line('multiple_choice_multiple_answer');?></option>
+						
+						<!--
 						<option value="3"><?php echo $this->lang->line('match_the_column');?></option>
 						<option value="4"><?php echo $this->lang->line('short_answer');?></option>
 						<option value="5"><?php echo $this->lang->line('long_answer');?></option>
+						
+						-->
 					
 					</select>
 			</div>

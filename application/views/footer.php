@@ -77,7 +77,15 @@ theme_advanced_buttons4 : "jbimages,insertlayer,moveforward,movebackward,absolut
 ?>
 <div class="row">
 <div class="container" style="text-align:center;">
-	<a href="http://www.thcsduongxuong.edu.vn">岩谷学園テクノビジネス横浜保育専門学校　情報ビジネス科　2年2組　ABCチーム</a>
+	<p>
+		<?php 
+		  //echo $this->lang->line('school');
+		  echo " <br/> ";
+		  //echo $this->lang->line('class');
+		  echo " <br/> ";
+		 // echo $this->lang->line('team');
+		 ?>
+	</p>
 </div>
 </div>
 </body>

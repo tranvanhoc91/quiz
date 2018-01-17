@@ -1,12 +1,10 @@
 <?php 
-
-$lang['site_title'] = "ダッシュボード";
-
+$lang ['school'] = "岩谷学園テクノビジネス横浜保育専門";
+$lang ['class'] = "情報ビジネス科　2年2組";
+$lang ['team'] = "Fantastic チーム";
 $lang['savsoft_quiz'] = "Savsoft Quiz v3.0";
 $lang['installation_process'] = "インストール中";
 $lang['installation_completed'] = "Installation Completed. Visit base URL {base_url} to login.<br><br>Default login info:<br> Email: admin@example.com <br>Password: admin<br><br>For more information or customization visit <a href='http://savsoftquiz.com/'>www.SavsoftQuiz.com/</a> ";
-
-
 $lang['installation_failed'] = "インストールが失敗しました";
 $lang['hostname'] = "データベースホストネーム";
 $lang['db_name'] = "データベース名";
