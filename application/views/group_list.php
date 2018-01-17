@@ -20,8 +20,6 @@
 <table class="table table-bordered">
 <tr>
  <th><?php echo $this->lang->line('group_name');?></th>
- <th><?php echo $this->lang->line('price'); ?></th>
- <th><?php echo $this->lang->line('valid_for_days');?></th>
 <th><?php echo $this->lang->line('action');?> </th>
 </tr>
 <?php 
