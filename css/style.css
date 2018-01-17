@@ -245,3 +245,13 @@ border-radius:0px 0px 4px 4px;
 h3.form-signin-heading{
 	text-align:center;
 }
+
+
+.login-bg{
+    background-color:#fff;
+    background-repeat: no-repeat;
+}
+
+.login-img{
+	padding-right: 50px;
+}

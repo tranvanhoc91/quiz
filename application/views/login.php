@@ -23,6 +23,7 @@
 
 
 <div class="col-md-8">
+	<div class="quizgame-intro">
 <?php 
 if($this->config->item('open_quiz')){
 	?>
@@ -55,6 +56,7 @@ if(count($recent_quiz)==0){
 <?php 
 }
 ?>
+</div>
 </div>
 <div class="col-md-4">
 
@@ -99,7 +101,12 @@ if($this->config->item('user_registration')){
 			</form>
 		</div>
 	</div>
-
+	
+	<div class="login-bg">
+		<img class="login-img" alt="" src="images/bg.jpg" width="656px" >
+	</div>
+	
+	
 </div>
  
 
