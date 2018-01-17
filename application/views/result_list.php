@@ -5,50 +5,6 @@ $logged_in=$this->session->userdata('logged_in');
    
   
 
-<?php 
-if($logged_in['su']=='1'){
-	?>
-   <div class="row">
- 
-  <div class="col-lg-12">
-    <form method="post" action="<?php echo site_url('result/generate_report/');?>">
-	<div class="input-group">
-    <h3><?php echo $this->lang->line('generate_report');?> </h3> 
-<select name="quid">
-<option value="0"><?php echo $this->lang->line('select_quiz');?></option>
-<?php 
-foreach($quiz_list as $qk => $quiz){
-	?>
-	<option value="<?php echo $quiz['quid'];?>"><?php echo $quiz['quiz_name'];?></option>
-	<?php 
-}
-?>
-</select>
- 	
-<select name="gid">
-<option value="0"><?php echo $this->lang->line('select_group');?></option>
-<?php 
-foreach($group_list as $gk => $group){
-	?>
-	<option value="<?php echo $group['gid'];?>"><?php echo $group['group_name'];?></option>
-	<?php 
-}
-?>
-</select>
-<input type="text" name="date1" value="" placeholder="<?php echo $this->lang->line('date_from');?>">
- 
- <input type="text" name="date2" value="" placeholder="<?php echo $this->lang->line('date_to');?>">
-
- <button class="btn btn-info" type="submit"><?php echo $this->lang->line('generate_report');?></button>	
-    </div><!-- /input-group -->
-	 </form>
-  </div><!-- /.col-lg-6 -->
-</div><!-- /.row -->
-
-<?php 
-}
-?>
-
 
 <h3><?php echo $title;?></h3>
  
