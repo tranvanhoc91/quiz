@@ -1,3 +1,7 @@
+<?php 
+include('sq_config.php');
+?>
+
 
 <div class="row"  style="border-bottom:1px solid #dddddd;">
 <div class="container"  >
@@ -5,7 +9,7 @@
 </div>
 <div class="col-md-10">
 <a href="<?php echo base_url();?>"><img src="<?php echo base_url('images/logo.png');?>"></a>
-<?php echo $this->lang->line('login_tagline');?>
+<span class="slogan"><?php echo $this->lang->line('login_tagline');?></span>
 </div>
 <div class="col-md-1">
 </div>
@@ -101,9 +105,12 @@ if($this->config->item('user_registration')){
 			</form>
 		</div>
 	</div>
-	
+
+
+
+
 	<div class="login-bg">
-		<img class="login-img" alt="" src="images/bg.jpg" width="656px" >
+		
 	</div>
 	
 	

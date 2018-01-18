@@ -429,6 +429,7 @@ if($result['camera_req']=='1'){
 		
 	</div>
 	
+	<!--
 	<div class="col-lg-12 noprint">
 	<h3><?php echo $this->lang->line('comparison_other');?></h3>
 	</div>
@@ -462,7 +463,7 @@ if($result['camera_req']=='1'){
 </div>
  </div>
  
- 
+
  
  
  
@@ -494,8 +495,7 @@ if($result['camera_req']=='1'){
   ?>
 </div>
  </div>
- 
- 
+
  
  
  <div class="col-lg-12 noprint" style="margin-top:50px;margin-bottom:50px;">
@@ -718,6 +718,8 @@ foreach($questions as $qk => $question){
 			 
 			
 			 ?>
+			 
+
 			 
 		<div class="op"> 
 		<?php echo $this->lang->line('your_answer');?> 

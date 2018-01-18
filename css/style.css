@@ -255,3 +255,22 @@ h3.form-signin-heading{
 .login-img{
 	padding-right: 50px;
 }
+
+.slogan {
+	padding-left: 20px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #06adbf;
+}
+
+.login-bg{
+	    background-image: url(../images/bg.jpg);
+    /* padding: 25px; */
+    background-repeat: no-repeat;
+    /* background-size: 300px 100px; */
+    width: 559px;
+    height: 600px;
+    margin-top: -0px;
+    margin-left: -200px;
+}
